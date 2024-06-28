@@ -33,8 +33,6 @@ for _ in range(m):
     arr[a].append((t,b))
     arr[b].append((t,a))
     
-# dist = [(INF,-1)] * (n+1)
-# dijkstra(1)
 for i in range(1,n+1):
     dist = [(INF,-1)] * (n+1)
     dijkstra(i)
